@@ -1,0 +1,23 @@
+
+public class Cep {
+
+	/**
+	 * @param args
+	 */
+	public void inserirNovoEndereco(String logradouro, String bairro, String cidade, String estado, String cep){
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Teste de conxão");
+		Conexao con = new Conexao();
+		con.conecta();
+		con.desconecta();
+		
+		
+
+	}
+
+}
